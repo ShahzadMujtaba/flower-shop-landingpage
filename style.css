@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ ul h1{
+     color: steelblue;;
+ }
+nav ul{
+display: flex;
+min-height: 10vh;
+padding: 1rem;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+font-weight: 800;
+
+}
+ li a:hover{
+    text-decoration: underline;
+    text-decoration-color:tomato
+}
+.hero{
+    min-height: 90vh;
+    background-image:  url('./assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h2{
+   font-size: 3rem;
+   text-align: center;
+   margin: 2rem;
+}
+.hero button{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: steelblue;
+    border-radius: 45px;
+    transition: all 0.5s ease;
+    font-weight: 600;
+}
+.hero button:hover{
+ background-color: rgb(53, 52, 52);
+ color: white;
+ transform: scale(1.1);
+}
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-img{
+    flex: 1 1 10rem;
+    
+}
+.intro-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.intro-text{
+  flex: 1 1 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(149, 200, 245);
+  /* color: white; */
+}
+.intro-text h2{
+    padding: 2rem;
+ letter-spacing: 0.2rem;
+}
+.intro-text p{
+    padding: 1rem;
+}
